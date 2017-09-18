@@ -6,7 +6,7 @@
 $ npm install --global webpack
 ```
 
-* Executer l'exemple `Getting Started`
+* Executer l'exemple `Getting Started` dans votre repertoire (i.e. #Student Number)
 
 https://webpack.js.org/guides/getting-started/
 
