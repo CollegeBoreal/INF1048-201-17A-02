@@ -1,7 +1,15 @@
 # Webpack
 
+Installer en ligne de commande
 
-## Installation
+```
+$ npm install --global webpack
+```
+
+
+
+
+# Installation
 
 https://webpack.js.org/guides/installation/
 
