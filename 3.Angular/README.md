@@ -43,3 +43,9 @@ $ ng --version
 ```
 $ ng new monprojet --style=scss
 ```
+
+
+Suivre le tutoriel
+
+## Tutoriels en français  
+https://www.youtube.com/playlist?list=PLw5h0DiJ-9PD2b2tM3m7GQsHpuklT-fOT
