@@ -38,6 +38,8 @@ $ ng --version
 
 ## Créer un nouveau projet en utilisan SCSS
 
+* remplacer monprojet par mon numero d'etudiant
+
 ```
 $ ng new monprojet --style=scss
 ```
