@@ -38,7 +38,7 @@ $ ng --version
 
 ## Créer un nouveau projet en utilisant SCSS
 
-* remplacer monprojet par mon numero d'étudiant
+* remplacer monprojet par mon numero d'étudiant précédé de B comme Boréal (i.e. B300098957)
 
 ```
 $ ng new monprojet --style=scss
