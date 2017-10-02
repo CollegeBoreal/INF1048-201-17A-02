@@ -35,3 +35,5 @@ import "rxjs/Rx";
      return pokemons;
     }
 ```
+
+Devoir: Recuperer les informations (Pokemon) grace a la librairie rxjs/Rx et l'afficher dans un composant
