@@ -6,7 +6,11 @@ Creer un projet Angular-CLI et afficher les donnes ci-dessous a travers un Servi
 https://pokeapi.co/api/v2/pokemon?limit=15
 
 
-Utilisation de la platefrome reactive
+* Representation des donnees en JSON
+
+https://www.w3schools.com/js/js_json_intro.asp
+
+* Utilisation de la platefrome reactive
 
 http://reactivex.io/
 
