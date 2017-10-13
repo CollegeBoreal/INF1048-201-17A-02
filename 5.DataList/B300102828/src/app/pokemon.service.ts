@@ -8,10 +8,10 @@ export class PokemonService {
   constructor(private http: Http) {
   }
 pokemonInit() {
-    let pokemons: Array<any> = [];
+   const pokemons: Array<any> = [];
   this.http.get('https://pokeapi.co/api/v2/pokemon?limit=151')
-  .map( result => result.json() )
-    .flatMap( tableau => tableau.result)
+  .map( tout => tout.json() )
+    .flatMap( tableau => tableau.results)
     .subscribe (
     donnee => {
       pokemons.push(donnee);
