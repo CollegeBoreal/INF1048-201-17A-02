@@ -18,9 +18,9 @@ Programmation et scripts - Automne 2017
 
 ```
 7	18-oct-17 Routing
-8	25-oct-17
-9	01-nov-17
-10	08-nov-17
+8	25-oct-17 Guard
+9	01-nov-17 Form
+10	08-nov-17 
 11	15-nov-17
 12	22-nov-17
 13	29-nov-17
