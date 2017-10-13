@@ -10,7 +10,8 @@ Programmation et scripts - Automne 2017
 |No| Date   | Cours               | Intitulé                                |  Pratique .                 | Commentaires .         |
 |--|--------|:--------------------|:----------------------------------------|:----------------------------|------------------------| 
 | 1|06-09-17|                     | Rentree des classes                     |                             |                        |
-| 1|13-09-17|[0.Git](0.Git)       | Introduction to algorithms              |                             |                        |
+| 2|13-09-17|[1.Script](1.Script) | Javascript .                            |                             |                        |
+| 3|20-09-17|[1.Script](1.Script) | Javascript .                            |                             |                        |
 
 ```
 1	06-sept-17
