@@ -19,21 +19,29 @@ import "rxjs/Rx";
 ```
 
 ```
-  pokemonInit():Array<any>{
-        let pokemons: Array<any> = [];
-        this.http.get("https://pokeapi.co/api/v2/pokemon?limit=151")
-        .map( result => result.json())
-        .flatMap(result => result.results)
-        .subscribe(
-            result => {
-                pokemons.push(result);
-            },
-            error => {
-                console.error(error);
-            }
-        );
-     return pokemons;
-    }
+  constructor(private http: Http) {
+
+  }
+```
+
+```
+  pokemonInit(){
+    let pokemons: Array<any> = [];
+
+    this.http.get('https://pokeapi.co/api/v2/pokemon?limit=151')
+    .map( tout => tout.json() )
+    .flatMap( tableau => tableau.results )
+    .subscribe(
+      donnee => {
+        pokemons.push(donnee)
+      },
+      erreur => {
+        console.error(erreur)
+      }
+    );
+
+    return pokemons;
+  }
 ```
 
 Devoir: Recuperer les informations (Pokemon) grace a la librairie rxjs/Rx et l'afficher dans un composant
