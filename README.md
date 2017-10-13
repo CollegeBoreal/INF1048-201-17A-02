@@ -7,11 +7,12 @@ Programmation et scripts - Automne 2017
 
 ## Elements de Performance
 
-|No| Date   | Cours               | Intitulé                                |  Pratique .                 | Commentaires .         |
-|--|--------|:--------------------|:----------------------------------------|:----------------------------|------------------------| 
-| 1|06-09-17|                     | Rentree des classes                     |                             |                        |
-| 2|13-09-17|[1.Script](1.Script) | Javascript .                            |                             |                        |
-| 3|20-09-17|[1.Script](1.Script) | Javascript .                            |                             |                        |
+|No| Date   | Cours                 | Intitulé                                |  Pratique .                 | Commentaires .         |
+|--|--------|:----------------------|:----------------------------------------|:----------------------------|------------------------| 
+| 1|06-09-17|                       | Rentree des classes                     |                             |                        |
+| 2|13-09-17|[1.Script](1.Script)   | Javascript .                            |                             |                        |
+| 3|20-09-17|[2.WebPack](2.WebPack) | Packaging Javascript                    |                             |                        |
+| 4|20-09-17|[2.WebPack](2.WebPack) | Packaging Javascript                    |                             |                        |
 
 ```
 1	06-sept-17
