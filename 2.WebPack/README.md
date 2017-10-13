@@ -1,5 +1,7 @@
 # Webpack
 
+![alt tag](FRAMEWORK.png)
+
 * Installer en ligne de commande
 
 ```
