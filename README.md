@@ -12,13 +12,9 @@ Programmation et scripts - Automne 2017
 | 1|06-09-17|                       | Rentree des classes                     |                             |                        |
 | 2|13-09-17|[1.Script](1.Script)   | Javascript .                            |                             |                        |
 | 3|20-09-17|[2.WebPack](2.WebPack) | Packaging Javascript                    |                             |                        |
-| 4|20-09-17|[2.WebPack](2.WebPack) | Packaging Javascript                    |                             |                        |
+| 4|27-09-17|[3.Angular](3.Angular) | Framework                               |  Angular-CLI .               |                        |
 
 ```
-1	06-sept-17
-2	13-sept-17
-3	20-sept-17
-4	27-sept-17
 5	04-oct-17
 6	11-oct-17
 7	18-oct-17
