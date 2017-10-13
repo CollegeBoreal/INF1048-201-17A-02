@@ -7,26 +7,27 @@ Programmation et scripts - Automne 2017
 
 ## Elements de Performance
 
-|No| Date   | Cours               | Intitulé                                |  Structure de donnees       | Structure de controle  |
+|No| Date   | Cours               | Intitulé                                |  Pratique .                 | Commentaires .         |
 |--|--------|:--------------------|:----------------------------------------|:----------------------------|------------------------| 
-| 1|07-09-17|[0.Git](0.Git)       | Introduction to algorithms              |                             |                        |
-| 2|14-09-17|                     | Binary search                           | Tableau, Liste              | Fonction               |
-| 3|21-09-17|                     | Selection sort                          |                             | Condition              |
-|  |        |                     | Notation Big O                          |                             | Recursion              |
-| 4|28-09-17|[1.Tri](1.Tri)       | Quicksort                               | Pile                        | Iteration              |
-| 5|05-10-17|[2.Hash](2.Hash)     |                                         | HashTable                   | Collision              |
-| 6|12-10-17|[3.Projet](3.Projet) | Projet                                  | Graphe                      |                        |
+| 1|06-09-17|                     | Rentree des classes                     |                             |                        |
+| 1|13-09-17|[0.Git](0.Git)       | Introduction to algorithms              |                             |                        |
 
 ```
-7	19-oct-17		Tree Search
-8	26-oct-17		Breadth-first search
-9	02-nov-17		Journée d’études collégiales (aucun cours)
-10	09-nov-17		Dijkstra's algorithm
-11	16-nov-17		Greedy algorithms
-12	23-nov-17		
-13	30-nov-17		Dynamic programming
-14	07-déc-17		K-nearest neighbors
-15	14-déc-17		Fin De Session
+1	06-sept-17
+2	13-sept-17
+3	20-sept-17
+4	27-sept-17
+5	04-oct-17
+6	11-oct-17
+7	18-oct-17
+8	25-oct-17
+9	01-nov-17
+10	08-nov-17
+11	15-nov-17
+12	22-nov-17
+13	29-nov-17
+14	06-déc-17
+15	13-déc-17
 ```
 
 ## Prerequis
