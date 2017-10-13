@@ -7,17 +7,17 @@ Programmation et scripts - Automne 2017
 
 ## Elements de Performance
 
-|No| Date   | Cours                 | Intitulé                                |  Pratique .                 | Commentaires .         |
-|--|--------|:----------------------|:----------------------------------------|:----------------------------|------------------------| 
-| 1|06-09-17|                       | Rentree des classes                     |                             |                        |
-| 2|13-09-17|[1.Script](1.Script)   | Javascript .                            |                             |                        |
-| 3|20-09-17|[2.WebPack](2.WebPack) | Packaging Javascript                    |                             |                        |
-| 4|27-09-17|[3.Angular](3.Angular) | Framework                               |  Angular-CLI .               |                        |
+|No| Date   | Cours                     | Intitulé                                |  Pratique .                 | Commentaires .         |
+|--|--------|:--------------------------|:----------------------------------------|:----------------------------|------------------------| 
+| 1|06-09-17|                           | Rentree des classes                     |                             |                        |
+| 2|13-09-17|[1.Script](1.Script)       | Javascript .                            |                             |                        |
+| 3|20-09-17|[2.WebPack](2.WebPack)     | Packaging Javascript                    |                             |                        |
+| 4|27-09-17|[3.Angular](3.Angular)     | Framework                               |  Angular-CLI .              |                        |
+| 5|04-10-17|[4.WireFrame](4.WireFrame) | Presentation de son projet              |  ngComponent                |                        |
+| 6|11-10-17|[5.DataList](5.DataList)   | Service .                               |  Service/                   |                        |
 
 ```
-5	04-oct-17
-6	11-oct-17
-7	18-oct-17
+7	18-oct-17 Routing
 8	25-oct-17
 9	01-nov-17
 10	08-nov-17
@@ -33,3 +33,7 @@ Programmation et scripts - Automne 2017
 Visiter:
 
 https://github.com/CollegeBoreal/Tutoriels/tree/master/3.Angular
+
+* Routage
+
+https://scotch.io/courses/routing-angular-2-applications
