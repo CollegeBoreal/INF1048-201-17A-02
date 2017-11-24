@@ -1,49 +1,6 @@
-# @Nebular Theme Module AddOn
-
-## Installing dependencies
-
-### Install Nebular modules (along with dependencies [i.e. Bootstrap]:
-
-```
-$ npm install --save @nebular/theme bootstrap@4.0.0-alpha.6
-```
-
-## Configuring in themes.modules.ts
-
--- Add a constant for the new Candidate Modules (i.e. NbMenuModule, NbSideModule, ...) that will be added later on.
-
-```Typescript
-const NB_MODULES = [
-];
-```
-
--- Add a constant for instantiating the main @Nebular module and other potiential modules
-
-```Typescript
-const NB_THEME_PROVIDERS = [
-  ...NbThemeModule.forRoot({ name: 'default' }).providers
-];
-```
 
 
-* Import `AND` Export the @Nebular modules through `@NgModule` by adding `...NB_MODULES`
-```Typescript
-  imports: [...BASE_MODULES, ...NB_MODULES],
-  exports: [...BASE_MODULES, ...NB_MODULES],
-```
-
-* Instanciate the @Nebular Module through the forRoot method of class `ThemeModule` by adding `providers: [...NB_THEME_PROVIDERS],`
-```Typescript
-  static forRoot(): ModuleWithProviders {
-    return <ModuleWithProviders>{
-      ngModule: ThemeModule,
-      providers: [...NB_THEME_PROVIDERS],
-    };
-  }
-
-```
-
-## Enabling the Theme System to Angular Project
+# Enabling the Theme System to Angular Project
 
 https://akveo.github.io/nebular/#/docs/guides/enabling-theme-system
 
