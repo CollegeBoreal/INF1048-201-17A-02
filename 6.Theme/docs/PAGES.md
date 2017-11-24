@@ -15,9 +15,9 @@ $ ng g module pages --routing true
 $ ng g component pages --inline-style true --inline-template true --spec false 
 ```
 
---- Let's create a fictitious `Menu`
+* Let's create a fictitious `Menu`
 
-* Add a new file called `pages-menu.ts` under `src/app/pages` with the following content:
+--- Add a new file called `pages-menu.ts` under `src/app/pages` with the following content:
 
 ```Typescript
 import {NbMenuItem} from '@nebular/theme';
