@@ -24,6 +24,7 @@
     "@nebular/theme": "^2.0.0-rc.3",
     "bootstrap": "^4.0.0-alpha.6",
     "core-js": "^2.4.1",
+    "ionicons-npm": "^2.0.1",
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.14"
   },

@@ -20,7 +20,8 @@
       "prefix": "app",
       "styles": [
         "styles.scss",
-        "../node_modules/@nebular/theme/styles/prebuilt/default.css"
+        "../node_modules/@nebular/theme/styles/prebuilt/default.css",
+        "../node_modules/ionicons-npm/scss/ionicons.scss"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
