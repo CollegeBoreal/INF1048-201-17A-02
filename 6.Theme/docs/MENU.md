@@ -42,7 +42,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
 
 ```
 
-* Add the menu to the page.component.ts
+* Add the menu to the page.component.ts `<nb-menu [items]="menu"></nb-menu>`
 
 ```Typescript
 @Component({
@@ -68,8 +68,9 @@ export class PagesComponent implements OnInit {
 }
 ```
 
+## New Menu Layout
 
-* Change Layout 
+* Change the One Column Layout, Edit `layout-one-column.component.ts`
 
 --- Add the following layout example (i.e. from AKVEO/Nebular) 
 
@@ -88,5 +89,4 @@ Notice the `select=` in the `<nb-content>` tag, these must be provided later on 
 </nb-layout>
 ```
 
-* Menu
 
