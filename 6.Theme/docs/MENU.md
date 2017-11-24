@@ -1,6 +1,6 @@
 # Creating the Application's Navigation
 
-## Add @Nebular Menu Module
+## Add @Nebular Menu Module to the @Theme Module
 
 * Edit the theme.module.ts by adding `NbMenuModule`
 
@@ -42,7 +42,31 @@ export const MENU_ITEMS: NbMenuItem[] = [
 
 ```
 
+* Add the menu to the page.component.ts
 
+```Typescript
+@Component({
+  selector: 'app-pages',
+  template: `
+    <app-layout-one-column>
+      <nb-menu [items]="menu"></nb-menu>
+      <router-outlet></router-outlet>
+    </app-layout-one-column>
+  `,
+  styles: []
+})
+export class PagesComponent implements OnInit {
+
+  menu: NbMenuItem[];
+
+  constructor() { }
+
+  ngOnInit() {
+    this.menu = MENU_ITEMS;
+  }
+
+}
+```
 
 
 * Change Layout 
