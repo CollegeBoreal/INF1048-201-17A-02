@@ -63,7 +63,7 @@ $ npm install --save ionicons-npm
 ]
 ```
 
-* Change the menu by adding an icon (i.e. ion-speedometer)
+* Change the menu by adding an icon (i.e. ion-speedometer, ion-ios-keypad-outline)
 
 ```Typescript
 export const MENU_ITEMS: NbMenuItem[] = [
@@ -75,6 +75,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
   },
   {
     title: 'FEATURES',
+    icon: 'ion ion-ios-keypad-outline',
     group: true,
   }
 ];
