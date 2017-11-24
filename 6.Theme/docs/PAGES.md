@@ -36,7 +36,7 @@ export class PagesModule { }
   selector: 'app-pages',
   template: `
     <app-layout-one-column>
-      This is
+      <router-outlet></router-outlet>
     </app-layout-one-column>
   `,
   styles: []
