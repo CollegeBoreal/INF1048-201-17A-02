@@ -24,12 +24,29 @@ const NB_THEME_PROVIDERS = [
 ];
 ```
 
-* Layout
+* Let's create a fictitious `Menu`
 
--- Generate a layout with one Column
-```bash
-$ ng g component pages/layout/LayoutOneColumn --inline-style true --inline-template true --spec false 
+--- Add a new file called `pages-menu.ts` under `src/app/pages` with the following content:
+
+```Typescript
+import {NbMenuItem} from '@nebular/theme';
+
+export const MENU_ITEMS: NbMenuItem[] = [
+  {
+    title: 'Dashboard',
+    icon: 'nb-home',
+    link: '/pages/dashboard',
+    home: true,
+  },
+  {
+    title: 'FEATURES',
+    group: true,
+  }
+];
+
 ```
+
+* Change Layout 
 
 --- Add the following layout example (i.e. from AKVEO/Nebular) 
 
