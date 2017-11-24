@@ -11,21 +11,21 @@ $ ng new MyProject --style=scss
 
 # Install @Nebular Dependencies
 
-Follow the [Install](./INSTALL.md) Documentation
+Follow the [Install](./docs/INSTALL.md) Documentation
 
 # Creating the Base Theme Module
 
-Follow the [Base](./BASE.md) Documentation
+Follow the [Base](./docs/BASE.md) Documentation
 
 # Adding the @Nebular Theme Module
 
-Follow the [Theme](./THEME.md) Documentation
+Follow the [Theme](./docs/THEME.md) Documentation
 
 
 # Add the application's Layout
 
-Follow the [Layout](./LAYOUT.md) Documentation
+Follow the [Layout](./docs/LAYOUT.md) Documentation
 
 # Add the application's Menu
 
-Follow the [Menu](./MENU.md) Documentation
+Follow the [Menu](./docs/MENU.md) Documentation
