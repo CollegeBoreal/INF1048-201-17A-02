@@ -101,7 +101,7 @@ const NB_MODULES = [
 
 const COMPONENTS = [
   LayoutOneColumnComponent
-]
+];
 
 const NB_THEME_PROVIDERS = [
   ...NbThemeModule.forRoot({ name: 'default' }).providers,
