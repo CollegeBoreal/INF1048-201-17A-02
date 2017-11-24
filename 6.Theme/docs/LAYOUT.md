@@ -96,7 +96,6 @@ const BASE_MODULES = [CommonModule, FormsModule, ReactiveFormsModule];
 const NB_MODULES = [
   NbLayoutModule,
   NbSidebarModule,
-  NbMenuModule
 ];
 
 const COMPONENTS = [
@@ -106,7 +105,6 @@ const COMPONENTS = [
 const NB_THEME_PROVIDERS = [
   ...NbThemeModule.forRoot({ name: 'default' }).providers,
   ...NbSidebarModule.forRoot().providers,
-  ...NbMenuModule.forRoot().providers,
 ];
 
 @NgModule({
