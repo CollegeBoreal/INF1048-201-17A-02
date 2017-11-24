@@ -43,8 +43,10 @@ const NB_THEME_PROVIDERS = [
   }
 
 ```
+
 . Final Result
-```
+
+```Typescript
 const BASE_MODULES = [CommonModule, FormsModule, ReactiveFormsModule];
 
 const NB_MODULES = [
