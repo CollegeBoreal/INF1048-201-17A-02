@@ -86,3 +86,8 @@ export class AppRoutingModule { }
 <router-outlet></router-outlet>
 ```
 
+## Testing
+
+http://localhost:4200
+
+You should see a blank page
