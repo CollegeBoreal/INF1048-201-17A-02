@@ -2,6 +2,9 @@
 
 `Creating a Theme Module using` [AKVEO/Nebular](https://akveo.github.io/nebular/#/docs/getting-started/what-is-nebular)
 
+## Modular Design
+
+![alt tag](./docs/ModuleDesign.png)
 
 ## Create Angular-CLI project
 
