@@ -43,3 +43,29 @@ const NB_THEME_PROVIDERS = [
   }
 
 ```
+. Final Result
+```
+const BASE_MODULES = [CommonModule, FormsModule, ReactiveFormsModule];
+
+const NB_MODULES = [
+];
+
+const NB_THEME_PROVIDERS = [
+  ...NbThemeModule.forRoot({ name: 'default' }).providers
+];
+
+@NgModule({
+  imports: [...BASE_MODULES, ...NB_MODULES],
+  exports: [...BASE_MODULES, ...NB_MODULES],
+  declarations: []
+})
+export class ThemeModule {
+  static forRoot(): ModuleWithProviders {
+    return <ModuleWithProviders>{
+      ngModule: ThemeModule,
+      providers: [...NB_THEME_PROVIDERS],
+    };
+  }
+}
+
+```
