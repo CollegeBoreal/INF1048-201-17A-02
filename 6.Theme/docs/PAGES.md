@@ -15,7 +15,42 @@ $ ng g module pages --routing true
 $ ng g component pages --inline-style true --inline-template true --spec false 
 ```
 
+## Add the TheModule to `pages.module.ts` and One Column Layout
 
+```Typescript
+@NgModule({
+  imports: [
+    CommonModule,
+    PagesRoutingModule,
+    ThemeModule
+  ],
+  declarations: [PagesComponent]
+})
+export class PagesModule { }
+```
+
+## Add `One Column Layout` to the `pages.component.html`
+
+```Typescript
+@Component({
+  selector: 'app-pages',
+  template: `
+    <app-layout-one-column>
+      This is
+    </app-layout-one-column>
+  `,
+  styles: []
+})
+export class PagesComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+
+```
 
 ## Integration to the `app module`
 
