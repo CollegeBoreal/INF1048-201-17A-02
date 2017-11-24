@@ -46,7 +46,7 @@ $nb-themes: nb-register-theme((
 
 ## Adding some icons
 
-* Install ionic Icons
+* Install [ionic](http://ionicons.com/) Icons
 
 --- Install the package
 
@@ -58,8 +58,7 @@ $ npm install --save ionicons-npm
 
 ```scss
 "styles": [
-...
-        "../node_modules/ionicons-npm/scss/ionicons.scss",
-...
+...<previous lines>
+        "../node_modules/ionicons-npm/scss/ionicons.scss"
 ]
 ```
