@@ -1,9 +1,33 @@
 # Creating the Application's Layout
 
+## Add the Nebular Layout and SideBar Modules to the Theme Module
+
+-- Add @Nebular (Layout, Sidebar) Modules to the theme.module.ts
+
+```Typescript
+const NB_MODULES = [
+  NbLayoutModule,
+  NbSidebarModule
+];
+```
+
+-- Instantiate the (@Nebular) Module through the provider's block to the theme.module.ts by adding:
+
+  `...NbSidebarModule.forRoot().providers,`
+
+. final result
+
+```Typescript
+const NB_THEME_PROVIDERS = [
+  ...NbThemeModule.forRoot({ name: 'default' }).providers,
+  ...NbSidebarModule.forRoot().providers,
+];
+```
 
 # Create the Layout
 
--- Generate a layout with one Column
+## Generate a layout with one Column
+
 ```
 $ ng g component @theme/layout/LayoutOneColumn --inline-template true --spec false 
 ```
@@ -48,33 +72,9 @@ export class LayoutOneColumnComponent implements OnInit {
 }
 ```
 
-# Add the Layout to the Theme Module
+## Advertize the newly created Layout
 
--- Add @Nebular (Layout, Sidebar) Modules to the theme.module.ts
-
-```Typescript
-const NB_MODULES = [
-  NbLayoutModule,
-  NbSidebarModule
-];
-```
-
--- Instantiate the (@Nebular) Module through the provider's block to the theme.module.ts by adding:
-
-  `...NbSidebarModule.forRoot().providers,`
-
-. final result
-
-```Typescript
-const NB_THEME_PROVIDERS = [
-  ...NbThemeModule.forRoot({ name: 'default' }).providers,
-  ...NbSidebarModule.forRoot().providers,
-];
-```
-
-# Advertize the Layout
-
---- Add tghe new created Layout to the theme.module.ts 
+--- Add the new created Layout to the theme.module.ts 
 
 ```Typescript
 const COMPONENTS = [
