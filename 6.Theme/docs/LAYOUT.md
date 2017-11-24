@@ -79,7 +79,7 @@ export class LayoutOneColumnComponent implements OnInit {
 ```Typescript
 const COMPONENTS = [
   LayoutOneColumnComponent
-]
+];
 ```
 
 --- Export the new created components `...COMPONENTS` from `@NgModule`
