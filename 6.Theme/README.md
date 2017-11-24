@@ -12,14 +12,13 @@
 $ ng new MyProject --style=scss
 ```
 
-# Creating the Base Theme Module
+# Creating the @Theme Module
 
 Follow the [Base](./docs/BASE.md) Documentation
 
-# Adding the @Nebular Theme Module
+# Adding the @Nebular Theme Module to the @Theme Module
 
-Follow the [Theme](./docs/THEME.md) Documentation
-
+Follow the [NB](./docs/NB.md) Documentation
 
 # Add the application's Layout
 
@@ -32,3 +31,7 @@ Follow the [Pages](./docs/PAGES.md) Documentation
 # Add the application's Menu
 
 Follow the [Menu](./docs/MENU.md) Documentation
+
+# Enabling the @Nebular Theme System
+
+Follow the [Theme](./docs/THEME.md) Documentation
