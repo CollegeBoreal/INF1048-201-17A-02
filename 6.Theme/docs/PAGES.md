@@ -52,6 +52,21 @@ export class PagesComponent implements OnInit {
 
 ```
 
+## Add the PagesComponent to the Pages Routing
+
+```
+const routes: Routes = [{
+  path: '',
+  component: PagesComponent,
+}];
+
+@NgModule({
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule]
+})
+export class PagesRoutingModule { }
+```
+
 ## Integration to the `app module`
 
 --- Since adding a routing to the existing app.module will give an error
