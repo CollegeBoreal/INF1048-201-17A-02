@@ -1,8 +1,8 @@
 # Creating the Application's Navigation
 
-# Add Menu
+## Add @Nebular Menu Module
 
--- Add the @Nebular Menu Module to the theme.module.ts by adding `NbMenuModule`
+* Edit the theme.module.ts by adding `NbMenuModule`
 
 ```Typescript
 const NB_MODULES = [
@@ -11,11 +11,7 @@ const NB_MODULES = [
 ];
 ```
 
--- Instantiate the (@Nebular) Menu Module through the providers block to the theme.module.ts by adding:
-
-  `...NbMenuModule.forRoot().providers,`
-
-. final result
+* Instantiate the (@Nebular) Menu Module through the providers block to the theme.module.ts by adding:
 
 ```Typescript
 const NB_THEME_PROVIDERS = [
@@ -24,9 +20,9 @@ const NB_THEME_PROVIDERS = [
 ];
 ```
 
-* Let's create a fictitious `Menu`
+## Let's create a fictitious `Menu`
 
---- Add a new file called `pages-menu.ts` under `src/app/pages` with the following content:
+* Add a new file called `pages-menu.ts` under `src/app/pages` with the following content:
 
 ```Typescript
 import {NbMenuItem} from '@nebular/theme';
@@ -45,6 +41,9 @@ export const MENU_ITEMS: NbMenuItem[] = [
 ];
 
 ```
+
+
+
 
 * Change Layout 
 
