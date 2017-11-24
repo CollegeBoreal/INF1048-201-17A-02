@@ -26,6 +26,10 @@ Follow the [Theme](./docs/THEME.md) Documentation
 
 Follow the [Layout](./docs/LAYOUT.md) Documentation
 
+# Add the pages Module
+
+Follow the [Pages](./docs/PAGES.md) Documentation
+
 # Add the application's Menu
 
 Follow the [Menu](./docs/MENU.md) Documentation
