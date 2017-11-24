@@ -20,7 +20,7 @@ Follow the [Base](./docs/BASE.md) Documentation
 
 Follow the [NB](./docs/NB.md) Documentation
 
-# Add the application's Layout
+# Create the application's Layout using @Nebular Layout Module
 
 Follow the [Layout](./docs/LAYOUT.md) Documentation
 
