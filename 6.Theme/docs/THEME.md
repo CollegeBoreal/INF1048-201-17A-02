@@ -4,6 +4,8 @@
 
 https://akveo.github.io/nebular/#/docs/guides/enabling-theme-system
 
+## Adding the Theme
+
 * Edit the .angular-cli.json file and add the theme(s)
 
 ```json
@@ -42,6 +44,8 @@ $nb-themes: nb-register-theme((
 };
 ```
 
+## Adding some icons
+
 * Install ionic Icons
 
 --- Install the package
@@ -50,7 +54,7 @@ $nb-themes: nb-register-theme((
 $ npm install --save ionicons-npm
 ```
 
---- add the stylesheet to Angular-CLI
+--- add the stylesheet to Angular-CLI `.angular-cli.json`
 
 ```scss
 "styles": [
