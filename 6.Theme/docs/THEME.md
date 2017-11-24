@@ -59,11 +59,3 @@ $ npm install --save ionicons-npm
 ...
 ]
 ```
-
-# Fixing 
-
-ERROR `File to import not found or unreadable: ../bootstrap/scss/_functions.`
-
-```
-$ npm install  -save-dev  bootstrap-loader@^2.0.0-beta.12
-```
