@@ -62,3 +62,20 @@ $ npm install --save ionicons-npm
         "../node_modules/ionicons-npm/scss/ionicons.scss"
 ]
 ```
+
+* Change the menu by adding an icon (i.e. ion-speedometer)
+
+```Typescript
+export const MENU_ITEMS: NbMenuItem[] = [
+  {
+    title: 'Dashboard',
+    icon: 'ion ion-speedometer',
+    link: '/pages/dashboard',
+    home: true,
+  },
+  {
+    title: 'FEATURES',
+    group: true,
+  }
+];
+```
