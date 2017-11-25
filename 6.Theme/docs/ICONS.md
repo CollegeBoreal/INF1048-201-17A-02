@@ -58,13 +58,13 @@ $ npm install --save nebular-icons
 export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'Dashboard',
-    icon: 'nb-menu',
+    icon: 'nb-home',
     link: '/pages/dashboard',
     home: true,
   },
   {
     title: 'FEATURES',
-    icon: 'nb-features',
+    icon: 'nb-keypad',
     group: true,
   }
 ];
