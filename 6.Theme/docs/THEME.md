@@ -44,39 +44,3 @@ $nb-themes: nb-register-theme((
 };
 ```
 
-## Adding some icons
-
-* Install [ionic](http://ionicons.com/) Icons
-
---- Install the package
-
-```
-$ npm install --save ionicons-npm
-```
-
---- add the stylesheet to Angular-CLI `.angular-cli.json`
-
-```scss
-"styles": [
-...<previous lines>
-        "../node_modules/ionicons-npm/scss/ionicons.scss"
-]
-```
-
-* Change the menu by adding an icon (i.e. ion-speedometer, ion-ios-keypad-outline)
-
-```Typescript
-export const MENU_ITEMS: NbMenuItem[] = [
-  {
-    title: 'Dashboard',
-    icon: 'ion ion-speedometer',
-    link: '/pages/dashboard',
-    home: true,
-  },
-  {
-    title: 'FEATURES',
-    icon: 'ion ion-ios-keypad-outline',
-    group: true,
-  }
-];
-```
