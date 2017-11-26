@@ -40,4 +40,6 @@ Follow the [Theme](./docs/THEME.md) Documentation
 
 Follow the [@Nebular/Auth](https://akveo.github.io/nebular/#/docs/auth/installation) Installation
 
-Follow the [@Nebular/Auth](https://akveo.github.io/nebular/#/docs/auth/configuration) Configuration
+Follow the [@Nebular/Auth](https://akveo.github.io/nebular/#/docs/auth/configuring-a-provider) Configuration
+
+Use the [@Nebular/Auth](https://akveo.github.io/nebular/#/docs/auth/getting-user-token) Token 
