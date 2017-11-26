@@ -35,3 +35,9 @@ Follow the [Menu](./docs/MENU.md) Documentation
 # Enabling the @Nebular Theme System
 
 Follow the [Theme](./docs/THEME.md) Documentation
+
+# Enabling Authentication using @Nebular/auth
+
+Follow the [@Nebular/Auth](https://akveo.github.io/nebular/#/docs/auth/installation) Installation
+
+Follow the [@Nebular/Auth](https://akveo.github.io/nebular/#/docs/auth/configuration) Configuration
