@@ -20,6 +20,10 @@ Follow the [Base](./docs/BASE.md) Documentation
 
 Follow the [NB](./docs/NB.md) Documentation
 
+# Enabling the @Nebular Theme System
+
+Follow the [Theme](./docs/THEME.md) Documentation
+
 # Create the application's Layout using @Nebular Layout Module
 
 Follow the [Layout](./docs/LAYOUT.md) Documentation
@@ -31,10 +35,6 @@ Follow the [Pages](./docs/PAGES.md) Documentation
 # Add the application's Menu
 
 Follow the [Menu](./docs/MENU.md) Documentation
-
-# Enabling the @Nebular Theme System
-
-Follow the [Theme](./docs/THEME.md) Documentation
 
 # Enabling Authentication using @Nebular/auth
 
