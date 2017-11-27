@@ -79,7 +79,7 @@ export class LayoutOneColumnComponent implements OnInit {
 ```Typescript
 const COMPONENTS = [
   LayoutOneColumnComponent
-]
+];
 ```
 
 --- Export the new created components `...COMPONENTS` from `@NgModule`
@@ -96,17 +96,15 @@ const BASE_MODULES = [CommonModule, FormsModule, ReactiveFormsModule];
 const NB_MODULES = [
   NbLayoutModule,
   NbSidebarModule,
-  NbMenuModule
 ];
 
 const COMPONENTS = [
   LayoutOneColumnComponent
-]
+];
 
 const NB_THEME_PROVIDERS = [
   ...NbThemeModule.forRoot({ name: 'default' }).providers,
   ...NbSidebarModule.forRoot().providers,
-  ...NbMenuModule.forRoot().providers,
 ];
 
 @NgModule({

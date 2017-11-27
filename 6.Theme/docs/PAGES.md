@@ -15,26 +15,56 @@ $ ng g module pages --routing true
 $ ng g component pages --inline-style true --inline-template true --spec false 
 ```
 
---- Let's create a fictitious `Menu`
-
-* Add a new file called `pages-menu.ts` under `src/app/pages` with the following content:
+## Add the TheModule to `pages.module.ts` and One Column Layout
 
 ```Typescript
-import {NbMenuItem} from '@nebular/theme';
+@NgModule({
+  imports: [
+    CommonModule,
+    PagesRoutingModule,
+    ThemeModule
+  ],
+  declarations: [PagesComponent]
+})
+export class PagesModule { }
+```
 
-export const MENU_ITEMS: NbMenuItem[] = [
-  {
-    title: 'Dashboard',
-    icon: 'nb-home',
-    link: '/pages/dashboard',
-    home: true,
-  },
-  {
-    title: 'FEATURES',
-    group: true,
+## Add `One Column Layout` to the `pages.component.html`
+
+```Typescript
+@Component({
+  selector: 'app-pages',
+  template: `
+    <app-layout-one-column>
+      <router-outlet></router-outlet>
+    </app-layout-one-column>
+  `,
+  styles: []
+})
+export class PagesComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
   }
-];
 
+}
+
+```
+
+## Add the PagesComponent to the Pages Routing
+
+```
+const routes: Routes = [{
+  path: '',
+  component: PagesComponent,
+}];
+
+@NgModule({
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule]
+})
+export class PagesRoutingModule { }
 ```
 
 ## Integration to the `app module`
@@ -86,3 +116,10 @@ export class AppRoutingModule { }
 <router-outlet></router-outlet>
 ```
 
+## Testing
+
+http://localhost:4200
+
+You should see a blank page
+
+![alt tag](./BLANK.png)

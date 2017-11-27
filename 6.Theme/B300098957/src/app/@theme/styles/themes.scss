@@ -1,0 +1,10 @@
+// import Nebular Theme System and the default theme
+@import '~@nebular/theme/styles/theming';
+@import '~@nebular/theme/styles/themes/default';
+
+// and change some variables inside of the map
+$nb-themes: nb-register-theme((
+
+  color-bg: gray,
+  color-fg: white,
+), default, default); // let's leave it as default
