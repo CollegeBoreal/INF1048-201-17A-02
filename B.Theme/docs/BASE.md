@@ -38,6 +38,10 @@ const BASE_MODULES = [CommonModule, FormsModule, ReactiveFormsModule];
 . Final Result should look like this
 
 ```Typescript
+import {ModuleWithProviders, NgModule} from '@angular/core';
+import { CommonModule } from '@angular/common';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+
 const BASE_MODULES = [CommonModule, FormsModule, ReactiveFormsModule];
 
 @NgModule({
@@ -48,7 +52,7 @@ const BASE_MODULES = [CommonModule, FormsModule, ReactiveFormsModule];
 export class ThemeModule {
   static forRoot(): ModuleWithProviders {
     return <ModuleWithProviders>{
-      ngModule: ThemeModule
+      ngModule: ThemeModule,
     };
   }
 }
