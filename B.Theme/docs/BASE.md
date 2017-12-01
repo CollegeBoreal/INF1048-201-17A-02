@@ -10,7 +10,7 @@ $ ng generate module @theme/Theme --flat
 
 Edit themes.modules.ts
 
-add a new variable BASE_MODULES before the `@NgModule` Decorator
+add a new variable BASE_MODULES before the `@NgModule` Decorator by replacing the existing `imports:` field
 
 ```Typescript
 const BASE_MODULES = [CommonModule, FormsModule, ReactiveFormsModule];
