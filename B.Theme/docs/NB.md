@@ -47,7 +47,7 @@ by adding `providers: [...NB_THEME_PROVIDERS],`
 
 ```
 
-. Final Result
+. Final Result should look like this
 
 ```Typescript
 import {ModuleWithProviders, NgModule} from '@angular/core';
