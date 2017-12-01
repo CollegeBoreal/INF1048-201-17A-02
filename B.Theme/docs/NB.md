@@ -50,6 +50,11 @@ by adding `providers: [...NB_THEME_PROVIDERS],`
 . Final Result
 
 ```Typescript
+import {ModuleWithProviders, NgModule} from '@angular/core';
+import { CommonModule } from '@angular/common';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {NbThemeModule} from '@nebular/theme';
+
 const BASE_MODULES = [CommonModule, FormsModule, ReactiveFormsModule];
 
 const NB_MODULES = [
@@ -72,5 +77,4 @@ export class ThemeModule {
     };
   }
 }
-
 ```
