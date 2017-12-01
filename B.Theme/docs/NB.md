@@ -33,7 +33,10 @@ const NB_THEME_PROVIDERS = [
   exports: [...BASE_MODULES, ...NB_MODULES],
 ```
 
-* Instanciate the @Nebular Module through the forRoot method of class `ThemeModule` by adding `providers: [...NB_THEME_PROVIDERS],`
+* Instanciate the @Nebular Module through the forRoot method of class `ThemeModule` 
+
+by adding `providers: [...NB_THEME_PROVIDERS],`
+
 ```Typescript
   static forRoot(): ModuleWithProviders {
     return <ModuleWithProviders>{
