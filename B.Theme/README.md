@@ -9,7 +9,7 @@
 ## Create Angular-CLI project
 
 ```
-$ ng new MyProject --style=scss
+$ ng new MyProject --style=scss && cd MyProject
 ```
 
 # Creating the @Theme Module
