@@ -11,7 +11,6 @@ $ ng generate module @theme/Theme --flat
 Edit themes.modules.ts
 
 add a new variable BASE_MODULES before the `@NgModule` Decorator 
-
 (by replacing the existing `imports:` field)
 
 ```Typescript
