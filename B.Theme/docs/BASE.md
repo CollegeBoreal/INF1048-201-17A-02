@@ -24,7 +24,7 @@ const BASE_MODULES = [CommonModule, FormsModule, ReactiveFormsModule];
   exports: [...BASE_MODULES],
 ```
 
-* add the forRoot method to the class ThemeModule
+* add the forRoot method to the `class ThemeModule`
 
 ```Typescript
   static forRoot(): ModuleWithProviders {
