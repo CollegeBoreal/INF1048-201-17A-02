@@ -42,7 +42,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
 
 ```
 
-* Add the menu to the page.component.ts `<nb-menu [items]="menu"></nb-menu>`
+* Add the menu to the `pages.component.ts` the line `<nb-menu [items]="menu"></nb-menu>`
 
 ```Typescript
 @Component({
