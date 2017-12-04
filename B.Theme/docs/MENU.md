@@ -42,7 +42,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
 
 ```
 
-* Add the menu to the page.component.ts `<nb-menu [items]="menu"></nb-menu>`
+* Add the menu to the `pages.component.ts` by adding the line `<nb-menu [items]="menu"></nb-menu>`
 
 ```Typescript
 @Component({
@@ -85,7 +85,6 @@ Notice the `select=` in the `<nb-content>` tag, these must be provided later on 
   <nb-layout-column>
     <ng-content select="router-outlet"></ng-content>
   </nb-layout-column>
-  <nb-layout-footer fixed>CopyLeft</nb-layout-footer>
 </nb-layout>
 ```
 

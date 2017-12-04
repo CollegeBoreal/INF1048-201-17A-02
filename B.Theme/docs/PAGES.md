@@ -69,14 +69,17 @@ export class PagesRoutingModule { }
 
 ## Integration to the `app module`
 
---- Since adding a routing to the existing app.module will give an error
+--- Let's add the `Pages Module` to the main `App Module` by adding its route
 
-```bash
-$ ng g module app --routing true --flat
-error! src/app/app.module.ts already exists.
+--- Add the following code to the file `app-routing.module.ts` to the Constant `routes` 
+
+```Typescript
+  { path: 'pages', loadChildren: 'app/pages/pages.module#PagesModule' },
+  { path: '', redirectTo: 'pages', pathMatch: 'full' },
+  { path: '**', redirectTo: 'pages' },
 ```
 
---- Add the following code to  new file src/app/app-routing.module.ts
+. Final Result 
 
 ```Typescript
 import { NgModule } from '@angular/core';
@@ -97,17 +100,6 @@ const config: ExtraOptions = {
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-```
-
---- Import the routing.module to the app.module.ts file
-
-```Typescript
-@NgModule({
- imports: [
- ...<previous code>
-  AppRoutingModule
-]
-...<other code>
 ```
 
 --- Replace the app.component.html code to the below
