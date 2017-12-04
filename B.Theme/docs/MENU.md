@@ -85,7 +85,6 @@ Notice the `select=` in the `<nb-content>` tag, these must be provided later on 
   <nb-layout-column>
     <ng-content select="router-outlet"></ng-content>
   </nb-layout-column>
-  <nb-layout-footer fixed>CopyLeft</nb-layout-footer>
 </nb-layout>
 ```
 
