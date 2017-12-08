@@ -10,5 +10,10 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'FEATURES',
     group: true,
+  },
+  {
+    title: 'Transfert',
+    icon: 'nb-home',
+    link: '/pages/transfert'
   }
 ] ;
