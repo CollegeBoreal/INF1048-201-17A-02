@@ -15,5 +15,30 @@ export const MENU_ITEMS: NbMenuItem[] = [
     title: 'Transfert',
     icon: 'nb-home',
     link: '/pages/transfert'
+  },
+  {
+    title: 'Home',
+    icon: 'nb-home',
+    link: '/pages/home'
+  },
+  {
+    title: 'Login',
+    icon: 'nb-home',
+    link: '/pages/login'
+  },
+  {
+    title: 'Partners',
+    icon: 'nb-home',
+    link: '/pages/partners'
+  },
+  {
+    title: 'Help',
+    icon: 'nb-home',
+    link: '/pages/help'
+  },
+  {
+    title: 'Languages',
+    icon: 'nb-home',
+    link: '/pages/languages'
   }
 ] ;
