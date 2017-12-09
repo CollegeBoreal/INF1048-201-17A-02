@@ -11,5 +11,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
     title: 'FEATURES',
     icon: 'ion ion-ios-keypad-outline',
     group: true,
+  },
+  {
+    title: 'FEATURES',
+    icon: 'ion ion-headphone',
+    link: '/pages/transfert',
   }
+
 ];
