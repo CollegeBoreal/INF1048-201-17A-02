@@ -1,0 +1,11 @@
+@import '../../styles/themes';
+@import '~bootstrap/scss/mixins/breakpoints';
+@import '~@nebular/theme/styles/global/bootstrap/breakpoints';
+
+@include nb-install-component() {
+
+  .img-bg {
+    background-image: nb-theme(url-bg);
+  }
+
+}

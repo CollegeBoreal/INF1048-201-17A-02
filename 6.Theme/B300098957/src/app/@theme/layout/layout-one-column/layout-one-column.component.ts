@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
       <nb-sidebar>
         <ng-content select="nb-menu"></ng-content>
       </nb-sidebar>
-      <nb-layout-column>
+      <nb-layout-column class="img-bg">
         <ng-content select="router-outlet"></ng-content>
       </nb-layout-column>
       <nb-layout-footer fixed>CopyLeft</nb-layout-footer>

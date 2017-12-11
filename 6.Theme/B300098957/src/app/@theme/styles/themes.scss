@@ -7,4 +7,7 @@ $nb-themes: nb-register-theme((
 
   color-bg: gray,
   color-fg: white,
+
+  url-bg: url('/assets/images/landing_bg_web.png'),
+
 ), default, default); // let's leave it as default
