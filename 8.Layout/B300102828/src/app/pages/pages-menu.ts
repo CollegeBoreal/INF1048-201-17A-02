@@ -12,11 +12,6 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
-    title: 'Transfert',
-    icon: 'nb-home',
-    link: '/pages/transfert'
-  },
-  {
     title: 'Home',
     icon: 'nb-home',
     link: '/pages/home'
@@ -25,6 +20,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
     title: 'Login',
     icon: 'nb-home',
     link: '/pages/login'
+  },
+  {
+    title: 'Transfert',
+    icon: 'nb-home',
+    link: '/pages/transfert/transaction'
   },
   {
     title: 'Partners',

@@ -18,7 +18,7 @@ const routes: Routes = [{
     component: DashboardComponent
   }, {
     path: 'transfert',
-    component: TransfertComponent
+    loadChildren: './transfert/transfert.module#TransfertModule'
   }, {
     path: 'home',
     component: HomeComponent
