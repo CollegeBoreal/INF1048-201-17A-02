@@ -24,7 +24,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'Transfert',
     icon: 'nb-home',
-    link: '/pages/transfert/transaction'
+    link: '/pages/transfert'
   },
   {
     title: 'Partners',
