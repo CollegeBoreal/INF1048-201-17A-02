@@ -16,6 +16,7 @@ Programmation et scripts - Automne 2017
 | 5|04-10-17|[4.WireFrames](4.WireFrames) | Presentation de son projet              |  ngComponent                |
 | 6|11-10-17|[5.DataList](5.DataList)     | Service .                               |  Service/                   |
 
+
 ```
 7	18-oct-17 Routing
 8	25-oct-17 Guard
@@ -43,5 +44,7 @@ https://www.youtube.com/watch?v=sCbXTrsl7NU&list=PL6gx4Cwl9DGBxQO2r_kmxn-0UqL_Rk
 
 https://scotch.io/courses/routing-angular-2-applications
 
+* Shadow DOM et Angular2 Components
 
+https://blog.thoughtram.io/angular/2015/06/29/shadow-dom-strategies-in-angular2.html
 
