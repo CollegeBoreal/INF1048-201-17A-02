@@ -17,7 +17,7 @@ Programmation et scripts - Automne 2017
 | 6|09-10-17|[5.DataList](5.DataList)(*)  | Service (& Rx)                          |  Intro. [`Template & Data Binding`](https://angular.io/guide/displaying-data)  |
 | -| .      |                             | Interruption                            |                                        |
 | 7|20-11-17|[6.Theme](6.Theme) (*)       |  Construire un Theme .                  | Intro. au [`Bootsrapping`](https://angular.io/guide/bootstrapping)  |
-| 8|27-11-17|[7.Projet](7.Projet)         | Construire son projet                   |  Intro. au [`Module`](https://angular.io/guide/ngmodule) |
+| 8|27-11-17|[7.Projet](7.Projet)         | Construire son projet                   | Intro. au [`Module`](https://angular.io/guide/ngmodule) |
 | 9|06-12-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
 |10|13-12-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
 | -| .      |                             | Interruption                            |                                        |
