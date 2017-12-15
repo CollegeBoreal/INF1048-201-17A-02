@@ -2,12 +2,12 @@
 @import '~@nebular/theme/styles/theming';
 @import '~@nebular/theme/styles/themes/default';
 
-$dark-gray: #595959;
+$bordeaux: #520022;
 
 // and change some variables inside of the map
 $nb-themes: nb-register-theme((
 
-  color-bg: $dark-gray,
+  color-bg: $bordeaux,
   color-fg: white,
 
   url-bg: url('/assets/images/landing_bg_web.png'),
