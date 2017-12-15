@@ -22,7 +22,7 @@ Programmation et scripts - Automne 2017
 |10|13-12-17|[9.Forms](9.Forms)           | Formulaires                             | Intro. au [`Formulaires`](https://angular.io/guide/user-input) |
 | -| .      |                             | Interruption                            |                                        |
 |11|02-01-18|[10.Validation](10.Validation)| Validation                                | Intro. au [`Validation des Formulaires`](https://angular.io/guide/form-validation) |
-|12|08-01-18|[11.RxJs](11.RxJs)           | RxJs  et oAuth .                         |  Introduction a [`Reactive/Programming`](https://auth0.com/blog/understanding-reactive-programming-and-rxjs/) |
+|12|08-01-18|[11.RxJs](11.RxJs)           | RxJs  et oAuth .                         |  Intro. a [`Reactive/Programming`](https://auth0.com/blog/understanding-reactive-programming-and-rxjs/) |
 |13|        |                             | Authentification                        |                                        |
 |14|        |                             | Resolve/Guard                           |                                        |
 |15|        |                             | oAuth0                                  |                                        |
