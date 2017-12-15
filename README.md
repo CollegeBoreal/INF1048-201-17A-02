@@ -18,7 +18,7 @@ Programmation et scripts - Automne 2017
 | -| .      |                             | Interruption                            |                                        |
 | 7|20-11-17|[6.Theme](6.Theme) (*)       |  Construire un Theme .                  | Intro. au [`Bootsrapping`](https://angular.io/guide/bootstrapping)  |
 | 8|27-11-17|[7.Projet](7.Projet)         | Construire son projet                   | Intro. au [`Module`](https://angular.io/guide/ngmodule) |
-| 9|06-12-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
+| 9|06-12-17|[8.Layout](8.Layout)         | Layout, Navigation et Menu              |  Intro. au [`Routage`](https://angular.io/guide/router) |
 |10|13-12-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
 | -| .      |                             | Interruption                            |                                        |
 |11|02-01-18|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
