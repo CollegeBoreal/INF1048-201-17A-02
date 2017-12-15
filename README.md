@@ -9,15 +9,15 @@ Programmation et scripts - Automne 2017
 
 |No| Date   | Cours                       | Intitulé                                |  Pratique .                            |
 |--|--------|:----------------------------|:----------------------------------------|:---------------------------------------|
-| 1|06-09-17|                             | Rentree des classes                     |                                        |
-| 2|13-09-17|[1.Script](1.Script)         | Javascript .                            |  Introduction au `shadow DOM`          |
-| 3|20-09-17|[2.WebPack](2.WebPack)       | Packaging Javascript                    |                                        | 
-| 4|27-09-17|[3.Angular](3.Angular)       | Framework                               |  Angular-CLI . et [`Architecture`](https://angular.io/guide/architecture) |
-| 5|04-10-17|[4.WireFrames](4.WireFrames) | Presentation de son projet              |  Interaction entre les cours           |
-| 6|11-10-17|[5.DataList](5.DataList)     | Service (& Rx)                          |  Intro. [`Template & Data Binding`](https://angular.io/guide/displaying-data)  |
+| 1|04-09-17| (*)                         | Rentree des classes                     |                                        |
+| 2|11-09-17|[1.Script](1.Script)         | Javascript .                            |  Introduction au `shadow DOM`          |
+| 3|18-09-17|[2.WebPack](2.WebPack)       | Packaging Javascript                    |                                        | 
+| 4|25-09-17|[3.Angular](3.Angular)       | Framework                               |  Angular-CLI . et [`Architecture`](https://angular.io/guide/architecture) |
+| 5|02-10-17|[4.WireFrames](4.WireFrames) | Presentation de son projet              |  Interaction entre les cours           |
+| 6|09-10-17|[5.DataList](5.DataList)(*)  | Service (& Rx)                          |  Intro. [`Template & Data Binding`](https://angular.io/guide/displaying-data)  |
 | -| .      |                             | Interruption                            |                                        |
-| 7|22-11-17|[6.Theme](6.Theme) (*)       |  Construire un Theme .                  | Intro. [`Bootsrapping`](https://angular.io/guide/bootstrapping) et [`Module`](https://angular.io/guide/ngmodule) |
-| 8|29-11-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
+| 7|20-11-17|[6.Theme](6.Theme) (*)       |  Construire un Theme .                  | Intro. [`Bootsrapping`](https://angular.io/guide/bootstrapping) et [`Module`](https://angular.io/guide/ngmodule) |
+| 8|27-11-17|[7.Projet](7.Projet)         | Construire son projet                   |                                        |
 | 9|06-12-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
 |10|13-12-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
 | -| .      |                             | Interruption                            |                                        |
@@ -27,6 +27,7 @@ Programmation et scripts - Automne 2017
 |14|        |                             | Resolve/Guard                           |                                        |
 |15|        |                             | oAuth0                                  |                                        |
 
+(*) Lundi manquant
 
 ```
 7	18-oct-17 Routing
