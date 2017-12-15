@@ -21,7 +21,7 @@ Programmation et scripts - Automne 2017
 | 9|06-12-17|[8.Layout](8.Layout)         | Layout, Navigation et Menu              | Intro. au [`Routage`](https://angular.io/guide/router) |
 |10|13-12-17|[9.Forms](9.Forms)           | Formulaires                             | Intro. au [`Formulaires`](https://angular.io/guide/user-input) |
 | -| .      |                             | Interruption                            |                                        |
-|11|02-01-18|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
+|11|02-01-18|[10.Validation](10.Validation)| Validation                                | Intro. au [`Validation des Formulaires`](https://angular.io/guide/form-validation) |
 |12|08-01-18|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
 |13|        |                             | Authentification                        |                                        |
 |14|        |                             | Resolve/Guard                           |                                        |
