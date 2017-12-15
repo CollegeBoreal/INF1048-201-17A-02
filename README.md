@@ -14,7 +14,7 @@ Programmation et scripts - Automne 2017
 | 3|18-09-17|[2.WebPack](2.WebPack)       | Packaging Javascript                    |                                        | 
 | 4|25-09-17|[3.Angular](3.Angular)       | Framework                               |  Angular-CLI . et [`Architecture`](https://angular.io/guide/architecture) |
 | 5|02-10-17|[4.WireFrames](4.WireFrames) | Presentation de son projet              |  Interaction entre les cours           |
-| 6|09-10-17|[5.DataList](5.DataList)(*)  | Service (& Rx)                          |  Intro. [`Template & Data Binding`](https://angular.io/guide/displaying-data)  |
+| 6|09-10-17|[5.DataList](5.DataList)(*)  | Service (intro a Rx)                    |  Intro. [`Template & Data Binding`](https://angular.io/guide/displaying-data)  |
 | -| .      |                             | Interruption                            |                                        |
 | 7|20-11-17|[6.Theme](6.Theme) (*)       |  Construire un Theme .                  | Intro. au [`Bootsrapping`](https://angular.io/guide/bootstrapping)  |
 | 8|27-11-17|[7.Projet](7.Projet)         | Construire son projet                   | Intro. au [`Module`](https://angular.io/guide/ngmodule) |
@@ -22,7 +22,7 @@ Programmation et scripts - Automne 2017
 |10|13-12-17|[9.Forms](9.Forms)           | Formulaires                             | Intro. au [`Formulaires`](https://angular.io/guide/user-input) |
 | -| .      |                             | Interruption                            |                                        |
 |11|02-01-18|[10.Validation](10.Validation)| Validation                                | Intro. au [`Validation des Formulaires`](https://angular.io/guide/form-validation) |
-|12|08-01-18|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
+|12|08-01-18|[11.RxJs](11.RxJs)           | RxJs  et oAuth .                         |  Introduction a [`Reactive/Programming`](https://auth0.com/blog/understanding-reactive-programming-and-rxjs/) |
 |13|        |                             | Authentification                        |                                        |
 |14|        |                             | Resolve/Guard                           |                                        |
 |15|        |                             | oAuth0                                  |                                        |
