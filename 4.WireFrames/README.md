@@ -1,6 +1,6 @@
 # Liens entre les cours
 
-![alt tag](./TEST.png)
+![alt tag](./Thematique.png)
 
 # WireFrame
 
