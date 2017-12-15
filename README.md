@@ -16,7 +16,7 @@ Programmation et scripts - Automne 2017
 | 5|04-10-17|[4.WireFrames](4.WireFrames) | Presentation de son projet              |  Interaction entre les cours           |
 | 6|11-10-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
 | -| .      |                             | Interruption                            |                                        |
-| 7|22-11-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
+| 7|22-11-17|[5.DataList](5.DataList)     | Template & Data Binding                 |  Introduction a [`Template & Data Binding`](https://angular.io/guide/displaying-data) |
 | 8|29-11-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
 | 9|06-12-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
 |10|13-12-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
