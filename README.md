@@ -12,11 +12,11 @@ Programmation et scripts - Automne 2017
 | 1|06-09-17|                             | Rentree des classes                     |                                        |
 | 2|13-09-17|[1.Script](1.Script)         | Javascript .                            |  Introduction au `shadow DOM`          |
 | 3|20-09-17|[2.WebPack](2.WebPack)       | Packaging Javascript                    |                                        | 
-| 4|27-09-17|[3.Angular](3.Angular)       | Framework                               |  Angular-CLI .                         |
+| 4|27-09-17|[3.Angular](3.Angular)       | Framework                               |  Angular-CLI . et [`Architecture`](https://angular.io/guide/architecture) |
 | 5|04-10-17|[4.WireFrames](4.WireFrames) | Presentation de son projet              |  Interaction entre les cours           |
 | 6|11-10-17|[5.DataList](5.DataList)     | Service (& Rx)                          |  Intro. [`Template & Data Binding`](https://angular.io/guide/displaying-data)  |
 | -| .      |                             | Interruption                            |                                        |
-| 7|22-11-17|[5.DataList](5.DataList) (*) | Template & Data Binding                 |   |
+| 7|22-11-17|[6.Theme](6.Theme) (*)       | Template & Data Binding                 |   |
 | 8|29-11-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
 | 9|06-12-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
 |10|13-12-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
