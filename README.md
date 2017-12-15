@@ -15,6 +15,14 @@ Programmation et scripts - Automne 2017
 | 4|27-09-17|[3.Angular](3.Angular)       | Framework                               |  Angular-CLI .                         |
 | 5|04-10-17|[4.WireFrames](4.WireFrames) | Presentation de son projet              |  Interaction entre les cours           |
 | 6|11-10-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
+| -| .      |                             | Interruption                            |                                        |
+| 7|22-11-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
+| 8|29-11-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
+| 9|06-12-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
+|10|13-12-17|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
+| -| .      |                             | Interruption                            |                                        |
+|11|02-01-18|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
+|12|19-01-18|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
 
 
 ```
