@@ -1,11 +1,21 @@
 @import '../../styles/themes';
-@import '~bootstrap/scss/mixins/breakpoints';
-@import '~@nebular/theme/styles/global/bootstrap/breakpoints';
 
 @include nb-install-component() {
 
   .img-bg {
     background-image: nb-theme(url-bg);
+  }
+
+  /deep/ .fixed {
+    background-color: nb-theme(color-bg);
+  }
+
+  /deep/ .main-container {
+    background-color: nb-theme(color-bg);
+  }
+
+  /deep/ .menu-items {
+    background-color: nb-theme(color-bg);
   }
 
 }
