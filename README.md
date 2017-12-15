@@ -23,6 +23,9 @@ Programmation et scripts - Automne 2017
 | -| .      |                             | Interruption                            |                                        |
 |11|02-01-18|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
 |12|19-01-18|[5.DataList](5.DataList)     | Service .                               |  Introduction a `Reactive/Programming` |
+|13|        |                             | Authentification                        |                                        |
+|14|        |                             | Resolve/Guard                           |                                        |
+|15|        |                             | oAuth0                                  |                                        |
 
 
 ```
