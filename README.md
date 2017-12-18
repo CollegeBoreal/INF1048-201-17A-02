@@ -52,3 +52,6 @@ https://blog.thoughtram.io/angular/2015/06/29/shadow-dom-strategies-in-angular2.
 
 https://toddmotto.com/angular-decorators
 
+* Two Way Binding
+
+https://blog.thoughtram.io/angular/2016/10/13/two-way-data-binding-in-angular-2.html
