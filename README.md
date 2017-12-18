@@ -48,3 +48,7 @@ https://scotch.io/courses/routing-angular-2-applications
 
 https://blog.thoughtram.io/angular/2015/06/29/shadow-dom-strategies-in-angular2.html
 
+* Decorator
+
+https://toddmotto.com/angular-decorators
+
