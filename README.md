@@ -55,3 +55,8 @@ https://toddmotto.com/angular-decorators
 * Two Way Binding
 
 https://blog.thoughtram.io/angular/2016/10/13/two-way-data-binding-in-angular-2.html
+
+
+* Using WebStorm for Building Angular Apps with Victor Savkin.
+
+https://www.youtube.com/watch?v=upgjCMHGpwo
