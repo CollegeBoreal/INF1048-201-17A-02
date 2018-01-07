@@ -9,8 +9,8 @@ Programmation et scripts - Automne 2017
 
 |No| Date   | Cours                       | Intitulé                                |  Pratique .                            |
 |--|--------|:----------------------------|:----------------------------------------|:---------------------------------------|
-| 2|04-09-17|[0.JavaScript](0.JavaScript)(*)| Javascript .                          |  Introduction au `shadow DOM`          |
-| 2|11-09-17|[0.Script](0.Script)         | Javascript .                            |  Introduction au `shadow DOM`          |
+| 1|04-09-17|[0.JavaScript](0.JavaScript)(*)| Javascript                            |  Introduction au `shadow DOM`          |
+| 2|11-09-17|[1.Libraries](1.Libraries)   | Libraries                               |  Lodash, Moment, ...                   |
 | 3|18-09-17|[2.WebPack](2.WebPack)       | Packaging Javascript                    |                                        | 
 | 4|25-09-17|[3.Angular](3.Angular)       | Framework                               |  Angular-CLI . et [`Architecture`](https://angular.io/guide/architecture) |
 | 5|02-10-17|[4.WireFrames](4.WireFrames) | Presentation de son projet              |  Interaction entre les cours           |
