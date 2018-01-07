@@ -1,0 +1,7 @@
+# Libraries
+
+* JQuery
+
+* Lodash
+
+* Moment
