@@ -56,6 +56,10 @@ https://toddmotto.com/angular-decorators
 
 https://blog.thoughtram.io/angular/2016/10/13/two-way-data-binding-in-angular-2.html
 
+* Forms 
+
+https://scotch.io/tutorials/angular-2-form-validation
+
 
 * Using WebStorm for Building Angular Apps with Victor Savkin.
 
