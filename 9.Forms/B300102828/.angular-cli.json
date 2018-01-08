@@ -19,8 +19,9 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "styles.scss",
         "../node_modules/@nebular/theme/styles/prebuilt/default.css"
-         ],
+      ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {

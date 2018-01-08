@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-transfert',
-  template: `<router-outlet></router-outlet>`,
-  styles: []
+  templateUrl: './transfert.component.html',
+  styleUrls: ['./transfert.component.scss']
 })
 export class TransfertComponent implements OnInit {
 

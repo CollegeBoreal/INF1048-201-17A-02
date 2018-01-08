@@ -3,31 +3,20 @@ import { CommonModule } from '@angular/common';
 
 import { PagesRoutingModule } from './pages-routing.module';
 import { PagesComponent } from './pages.component';
-import {ThemeModule} from '../@theme/theme.module';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { LoginComponent } from './login/login.component';
-import { HomeComponent } from './home/home.component';
-import { PartnersComponent } from './partners/partners.component';
-import { ContactComponent } from './contact/contact.component';
-import { HelpComponent } from './help/help.component';
-import { LanguagesComponent } from './languages/languages.component';
-import {TransfertModule} from './transfert/transfert.module';
-
+import {ThemeModule} from "../@theme/theme.module";
+import { HomeComponent } from './page/home/home.component';
+import { TransfertComponent } from './page/transfert/transfert.component';
+import { ContactComponent } from './page/contact/contact.component';
+import { LanguagesComponent } from './page/languages/languages.component';
+import { LoginComponent } from './page/login/login.component';
+import { HelpComponent } from './page/help/help.component';
 
 @NgModule({
   imports: [
     CommonModule,
     PagesRoutingModule,
-    ThemeModule,
-    TransfertModule,
+    ThemeModule
   ],
-  declarations: [PagesComponent,
-    DashboardComponent,
-    LoginComponent,
-    HomeComponent,
-    PartnersComponent,
-    ContactComponent,
-    HelpComponent,
-    LanguagesComponent]
+  declarations: [PagesComponent, HomeComponent, TransfertComponent, ContactComponent, LanguagesComponent, LoginComponent, HelpComponent]
 })
 export class PagesModule { }
