@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import {TransfertComponent} from './transfert.component';
 import {TransactionComponent} from './transaction/transaction.component';
 import {HistoriqueComponent} from './historique/historique.component';
+import {TransactionDetailComponent} from "./transaction-detail/transaction-detail.component";
 
 const routes: Routes = [ {
   path: '',
@@ -15,6 +16,9 @@ const routes: Routes = [ {
     path: 'transaction',
     component: TransactionComponent
   }, {
+    path: 'transactionDetail',
+    component: TransactionDetailComponent
+  } , {
     path: 'historique',
     component: HistoriqueComponent
   }]

@@ -8,6 +8,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
     home: true,
   },
   {
+    title: 'Detail',
+    icon: 'nb-home',
+    link: '/pages/transfert/transactionDetail',
+  },
+  {
     title: 'FEATURES',
     group: true,
   }

@@ -10,6 +10,7 @@ import { LanguagesComponent } from './languages/languages.component';
 import { LoginComponent } from './login/login.component';
 import { HelpComponent } from './help/help.component';
 import {TransfertModule} from "./transfert/transfert.module";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   imports: [
@@ -17,6 +18,7 @@ import {TransfertModule} from "./transfert/transfert.module";
     PagesRoutingModule,
     ThemeModule,
     TransfertModule
+
   ],
   declarations: [PagesComponent, HomeComponent, ContactComponent, LanguagesComponent, LoginComponent, HelpComponent]
 })
