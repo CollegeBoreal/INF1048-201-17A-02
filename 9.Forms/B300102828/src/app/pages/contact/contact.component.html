@@ -1,3 +1,6 @@
-<p>
-  contact works!
-</p>
+<div class="form-group">
+  <label for="power">Help</label>
+  <select class="form-control" id="power" required>
+    <option *ngFor="let pow of powers" [value]="pow">{{pow}}</option>
+  </select>
+</div>

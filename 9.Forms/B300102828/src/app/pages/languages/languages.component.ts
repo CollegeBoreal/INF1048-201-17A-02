@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./languages.component.scss']
 })
 export class LanguagesComponent implements OnInit {
+  powers = ['French', 'English',
+    ];
 
   constructor() { }
 

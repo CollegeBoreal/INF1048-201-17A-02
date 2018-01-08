@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./help.component.scss']
 })
 export class HelpComponent implements OnInit {
-
+  powers = ['Online Chat', 'FAQ',
+    ];
   constructor() { }
 
   ngOnInit() {
