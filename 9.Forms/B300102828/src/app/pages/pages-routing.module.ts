@@ -5,6 +5,7 @@ import {HelpComponent} from "./help/help.component";
 import {LanguagesComponent} from "./languages/languages.component";
 import {LoginComponent} from "./login/login.component";
 import {HomeComponent} from "./home/home.component";
+import {ContactComponent} from "./contact/contact.component";
 
 
 const routes: Routes = [{
@@ -26,6 +27,10 @@ const routes: Routes = [{
     path: 'languages',
     component: LanguagesComponent
   },
+    {
+      path: 'Contact',
+      component: ContactComponent
+    },
   ]
 }];
 

@@ -8,6 +8,8 @@ import {Hero} from "../../../data/hero";
   styleUrls: ['./transaction.component.scss']
 })
 export class TransactionComponent implements OnInit {
+
+
   powers = ['Really Smart', 'Super Flexible',
     'Super Hot', 'Weather Changer'];
 
